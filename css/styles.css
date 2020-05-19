@@ -23,7 +23,7 @@
 
 .spacin
 {
-	padding-top: 15%;
+	padding-top: 5%;
 }
 .space
 {
@@ -31,7 +31,6 @@
 }
 .rotate
 {
-	position: relative;
 	left: 100px;
 	transform: rotate(30deg);
 }
@@ -50,11 +49,12 @@
 .dog-Iphone
 {
 	width: 60%;
+	position: absolute;
 }
 
 .cwidth
 {
-	padding: 7% 15%
+	padding: 7% 15%;
 }
 
 .center
@@ -136,4 +136,32 @@ h2
 {
 	padding: 3% 2%;
 	text-align: center;
+}
+#features
+{
+	position: relative;
+	z-index: 1;
+	top: -50px;
+	background-color: white;
+}
+/*cta-section*/
+#cta,#footer
+{
+	text-align: center;
+	background-color: #ff4c68;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+@media (max-width: 1028px)
+{
+	#title
+	{
+		text-align: center;
+	}
+	.dog-Iphone
+	{
+		position: static;
+		transform: rotate(0);
+	}
 }
